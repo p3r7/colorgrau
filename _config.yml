@@ -1,16 +1,17 @@
 site: Colorie
-url: 
+url:
+host: 0.0.0.0
 author: Colorie
 author:
   name: Colorie
-  email: 
-  url: 
-  avatar: 
+  email:
+  url:
+  avatar:
 title: Colorie
-description: Colorie - Single column blog and portfolio Jekyll theme 
-logo: 
-image: 
-twitter: ronaldsvilcins  
+description: Colorie - Single column blog and portfolio Jekyll theme
+logo:
+image:
+twitter: ronaldsvilcins
 twitter:
   username: ronaldsvilcins
   creator: ronaldsvilcins
@@ -22,7 +23,7 @@ social:
     - https://www.dribbble.com/#
     - https://github.com/#
     - https://codepen.io/#
-  
+
 permalink: pretty
 
 disqus:
@@ -33,7 +34,7 @@ baseurl:             ""
 
 include:
   - _redirects
-  
+
 compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
@@ -59,7 +60,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:slug
-  
+
 defaults:
   -
     scope:
@@ -83,8 +84,8 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "project"     
-      
+      layout: "project"
+
   - scope:
       path: "assets/images"
     values:
