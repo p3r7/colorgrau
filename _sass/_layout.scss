@@ -1,10 +1,10 @@
 html {
-  box-sizing: border-box;
-  margin:0; 
-  padding:0; 
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 body {
     background-color: #edf2f7;
@@ -12,7 +12,7 @@ body {
 }
 
 header, main {
-	margin: 0 auto;
+    margin: 0 auto;
     max-width: 50rem;
 }
 .grid {
@@ -41,109 +41,109 @@ header, main {
     }
 }
 .card:nth-child(1n) {
-  background: #96d0c3;
+    background: #96d0c3;
 }
 .card:nth-child(2n) {
-  background: #ef7d4d;
+    background: #ef7d4d;
 }
 .card:nth-child(3n) {
-  background: #fbcfb9;
+    background: #fbcfb9;
 }
 .card:nth-child(4n) {
-  background: #fac14e;
+    background: #fac14e;
 }
 
 .card:nth-child(5n + 1) {
-  background: #ef7d4d;
+    background: #ef7d4d;
 }
 
 .card:nth-child(6n + 1) {
-  background: #ef7d4d;
+    background: #ef7d4d;
 }
 
 .card:nth-child(7n +1) {
-  background: #fac14e;
+    background: #fac14e;
 }
 
 
 .card:nth-child(4n + 1) {
-  background: #fac14e;
+    background: #fac14e;
 }
 .card:nth-child(4n + 2) {
-  background: #fbcfb9;
+    background: #fbcfb9;
 }
 .card:nth-child(4n + 3) {
-  background: #ef7d4d;
+    background: #ef7d4d;
 }
 .card:nth-child(4n + 4) {
-  background: #96d0c3;
+    background: #96d0c3;
 }
 
 .card {
-  //min-height: 100%;
-  background: white;
-  -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-  box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-  //display: flex;
-  //flex-direction: column;
-  text-decoration: none;
-  //position: relative;
-  //top: 0;
-  color: inherit;
+    //min-height: 100%;
+    background: white;
+    -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+    //display: flex;
+    //flex-direction: column;
+    text-decoration: none;
+    //position: relative;
+    //top: 0;
+    color: inherit;
 }
 
 .card .thumb {
-  padding-bottom: 60%;
-  background-size: cover;
-  background-position: center center;
+    padding-bottom: 60%;
+    background-size: cover;
+    background-position: center center;
 }
 
 .card a {
-	text-decoration: none;
+    text-decoration: none;
 }
 
-.card p { 
-  font-size: 0.9rem;
+.card p {
+    font-size: 0.9rem;
 }
 
 .card h2 {
-  font-size: 1.3rem;
-  margin: 0;
+    font-size: 1.3rem;
+    margin: 0;
 }
 
 .card time {
-  font-size: 0.8rem;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: .05em;
+    font-size: 0.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .05em;
 }
 
 .card .meta {
-   padding: 2rem;
-   display: flex;
-  
-  flex: 1;
-  justify-content: space-between;
-  flex-direction: column;
+    padding: 2rem;
+    display: flex;
+
+    flex: 1;
+    justify-content: space-between;
+    flex-direction: column;
 }
 
 .post {
-	background: white;
-	padding: 2rem 3rem;
-	-webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-  box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
-	
+    background: white;
+    padding: 2rem 3rem;
+    -webkit-box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+    box-shadow: 0 0.75rem 1.5rem rgba(18, 38, 63, 0.03);
+
 }
 
 .card {
-	transition: all 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-  &:hover {
-    transform: scale(1.02);
-  }
+    transition: all 0.3s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+    &:hover {
+        transform: scale(1.02);
+    }
 }
 ul, ol {
-	padding: 0;
-	list-style-position: inside;
+    padding: 0;
+    list-style-position: inside;
 }
 
 table {
@@ -178,12 +178,12 @@ nav {
     a, a:visited {
         margin: 0.5rem;
         text-decoration: none;
-	    text-transform: uppercase;
-	    color: inherit;
-	    font-size: 0.8rem;
-	    font-weight: 500;
-	    letter-spacing: .05em;
-	    //opacity: 0.6;
+	text-transform: uppercase;
+	color: inherit;
+	font-size: 0.8rem;
+	font-weight: 500;
+	letter-spacing: .05em;
+	//opacity: 0.6;
     }
 }
 
